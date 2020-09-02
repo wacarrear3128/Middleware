@@ -1,39 +1,19 @@
 import mysql.connector
 from mysql.connector import errorcode
-from objeto import Comunicado
 import zmq
+from objeto import Comunicado
 import json
-
-# Diccionario con los parámetros de configuración de la BD
-config = {
-	'user': 'root',
-	'password': 'root123',
-	'host': '34.121.240.130',
-	'database': 'sd_db',
-	'raise_on_warnings': True
-}
+from ReservaConnection import Connection
+from ReservaDA import ReservaDA
 
 # Metodo que recibe un objeto json con el requerimiento
 # nombre y cantidad
-def reservar(reqJson):
+def reservarPedido(reqJson):
 	try:
 		# Conecta con la BD usando la configuración del diccionario config
-		cnx = mysql.connector.connect(**config)
-		print("Conexión establecida...")
-		
-		# Crea un cursor para actualizar la tabla stock y un string con la consulta a ejecutar
-		cursor = cnx.cursor()
+		cnx = Connection.getConnection()
+		ReservaDA.setReserva(cnx, reqJson)
 
-		for json in reqJson:
-			# Armo la consulta
-			query = ("UPDATE tb_stock SET stock = stock - %d WHERE FK_id_prd = %d" % (json["cnt"], json["idp"]))
-			# Ejecuto la consulta armada
-			cursor.execute(query)
-
-		# Para cometer los cambios
-		cnx.commit()
-		# Cierra el cursor
-		cursor.close()
 		# Devuelve True si todo sale bien
 		return True
 	except mysql.connector.Error as err:
@@ -71,7 +51,7 @@ while True:
 	jsonLst = json.loads(jsonStr)
 	print("> Requerimiento recibido.")
 	# Llamo al método reservar y almaceno el resultado en correcto
-	correcto = reservar(jsonLst)
+	correcto = reservarPedido(jsonLst)
 
 	# Devuelve un mensaje que depende de correcto
 	if (correcto):

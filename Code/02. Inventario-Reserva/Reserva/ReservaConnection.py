@@ -13,7 +13,7 @@ config = {
 class Connection:
 	"""Para la conexión a la BD"""
 	def __init__(self):
-		super(InventarioConnection, self).__init__()
+		super(ReservaConnection, self).__init__()
 
 	@staticmethod
 	def getConnection():

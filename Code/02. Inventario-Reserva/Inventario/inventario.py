@@ -6,15 +6,6 @@ import json
 from InventarioConnection import Connection
 from InventarioDA import InventarioDA
 
-# Diccionario con los parámetros de configuración de la BD sd-serv04
-config = {
-	'user': 'root',
-	'password': 'root123',
-	'host': '34.121.240.130',
-	'database': 'sd_db',
-	'raise_on_warnings': True
-}
-
 ## Método que recibe un objeto json con el requerimiento
 ## {nombre, cantidad}
 ## Retorna una lista de diccionarios json
