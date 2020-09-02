@@ -15,10 +15,10 @@ class Objeto:
 # y cantidad que se desea reservar
 class Requerimiento:
 
-	def __init__(self, nombre = "", cantidad = 0, usuario = ""):
+	def __init__(self, nombre = "", cantidad = 0, dni = ""):
 		self.nombre = nombre
 		self.cantidad = cantidad
-		self.usuario = usuario
+		self.dni = dni
 
 
 # Para empacar lo que se le va a enviar al módulo Reserva
@@ -36,10 +36,10 @@ class Reserva:
 # dif es la diferencia entre el stock y la cantidad requerida
 class Comunicado:
 
-	def __init__(self, idp, nom, cnt, dif = 0, cst = 0, usu = ""):
+	def __init__(self, idp, nom, cnt, dif = 0, cst = 0, dni = ""):
 		self.idp = idp
 		self.nom = nom
 		self.cnt = cnt
 		self.dif = dif
 		self.cst = cst
-		self.usu = usu
+		self.dni = dni

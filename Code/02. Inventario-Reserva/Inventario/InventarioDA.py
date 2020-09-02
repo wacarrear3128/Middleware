@@ -29,8 +29,8 @@ class InventarioDA:
 				prc_prd = x[2]
 
 			# Armo el objeto Suficiente con los datos devueltos pos la consulta
-			objCom = Comunicado(id_prd, json["nombre"], json["cantidad"], (stock - json["cantidad"]), (prc_prd * json["cantidad"]), json["usuario"])
-			print("Stock: " + str(stock)+ " --> " + "Cantidad: " + str(json["cantidad"]))
+			objCom = Comunicado(id_prd, json["nombre"], json["cantidad"], (stock - json["cantidad"]), (prc_prd * json["cantidad"]), json["dni"])
+			print("Stock: " + str(stock)+ " --> Cantidad: " + str(json["cantidad"]) + " --> DNI: " + str(json["dni"]))
 
 			# Esto imprime si el stock alcanza para satisfacer el pedido
 			if(objCom.dif < 0):
