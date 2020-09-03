@@ -1,0 +1,36 @@
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.exe
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.csprojAssemblyReference.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.AssemblyInfoInputs.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.AssemblyInfo.cs
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\AsyncIO.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\NaCl.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\NetMQ.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Nueva carpeta\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.csproj.CopyComplete
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.exe
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.deps.json
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.runtimeconfig.json
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.runtimeconfig.dev.json
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Servidor.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\AsyncIO.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\NaCl.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\NetMQ.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.csprojAssemblyReference.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.AssemblyInfoInputs.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.AssemblyInfo.cs
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.csproj.CoreCompileInputs.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.csproj.CopyComplete
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Servidor\Servidor\obj\Debug\netcoreapp3.1\Servidor.genruntimeconfig.cache

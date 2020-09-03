@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Echovoice.JSON" Version="2.0.15151.1" />
+    <PackageReference Include="NetMQ" Version="4.0.1.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Facturacion.Entidades\Facturacion.Entidades.csproj" />
+    <ProjectReference Include="..\Facturacion.LogicaNegocio\Facturacion.LogicaNegocio.csproj" />
+  </ItemGroup>
+
+</Project>
