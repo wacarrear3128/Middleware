@@ -16,6 +16,20 @@ BEGIN
 	UPDATE tb_facturas SET tot_fct = tot_fct + NEW.cost WHERE id_fct = NEW.FK_id_fct;
 END; //
 
+DROP procedure IF EXISTS sp_detalle_factura_list;
+DELIMITER $$
+create procedure sp_detalle_factura_list(p_dni int, p_fac int)
+	begin
+		select f.id_fct as FACTURA, c.id_cli as DNI, concat(c.nom_cli, ' ', c.app_cli, ' ', c.apm_cli) as CLIENTE, 
+			p.nom_prd as PRODUCTO, p.prc_prd as PRECIO, o.cant as CANTIDAD, o.cost as COSTO, f.tot_fct as TOTAL
+			from tb_facturas f
+			inner join tb_clientes c on f.fk_id_cli = c.id_cli
+			inner join tb_ordenes o on f.id_fct = o.fk_id_fct
+			inner join tb_productos p on o.fk_id_prd = p.id_prd
+			where c.id_cli = p_dni and f.id_fct = p_fac;
+	end$$
+DELIMITER ;
+
 INSERT INTO tb_productos (nom_prd, dsc_prd, mrc_prd, prc_prd, und_prd) VALUES
 	('Prod001', 'Primer producto', 'Marca01', 20.0, 'und'),
     ('Prod002', 'Segundo producto', 'Marca01', 20.0, 'und'),

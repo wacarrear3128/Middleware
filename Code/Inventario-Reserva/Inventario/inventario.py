@@ -62,7 +62,7 @@ def sendJson(resJson, dirPort):
 #############################################
 
 dirReserva = "localhost:1051"
-dirFacturacion = "localhost:1052"
+dirFacturacion = "localhost:5555"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
 ctxtOrd = zmq.Context()
@@ -95,7 +95,7 @@ while True:
 
 	if (reservar):
 		sendJson(lstResp, dirReserva)
-		#sendJson(lstResp, dirFacturacion)
+		sendJson(lstResp, dirFacturacion)
 
 	#scktOrd.send_string(msj)
 	#print(json.dumps(lstResp, indent = 4) + "\n" + str(type(resp)))
