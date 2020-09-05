@@ -61,8 +61,8 @@ def sendJson(resJson, dirPort):
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-dirReserva = "34.121.240.130:1050"
-dirFacturacion = "34.123.189.222:5555"
+dirReserva = "34.123.133.9:1050"
+dirFacturacion = "localhost:5555"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
 ctxtOrd = zmq.Context()
@@ -75,11 +75,6 @@ while True:
 	print("Esperando solicitudes...\n")
 	# Recibo una cadena con una lista de jsons
 	jsonStr = scktOrd.recv()
-	print(jsonStr)
-	print(type(jsonStr))
-	jsonStr = jsonStr.decode("utf-8")
-	print(jsonStr)
-	print(type(jsonStr))
 	# Convierto esa cadena en una lista de jsons
 	jsonLst = json.loads(jsonStr)
 	# Declaro la lista donde almacenaré la data a devolver
@@ -104,4 +99,3 @@ while True:
 
 	#scktOrd.send_string(msj)
 	#print(json.dumps(lstResp, indent = 4) + "\n" + str(type(resp)))
-
