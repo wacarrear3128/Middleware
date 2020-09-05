@@ -9,32 +9,10 @@ async function runClient() {
   sock.connect('tcp://localhost:5555');
 
   for (let i = 0; i < 10; i++) {
-    let productos = [
-      {
-        'id': 1,
-        'nombre': 'Panasonic Pantalla LCD',
-        'precio': 25070,
-        'cantidad' : 0,
-        'total' : 0
-      },
-      {
-        'id': 2,
-        'nombre': 'Mica Comoda 5 Cajones',
-        'precio': 30240,
-        'cantidad' : 0,
-        'total' : 0
-      },
-      {
-        'id': 3,
-        'nombre': 'Hewlett Packard Multifuncional F2208',
-        'precio': 60230,
-        'cantidad' : 0,
-        'total' : 0
-      }
-    ]
-    //console.log('Sending Hello ', i);
+    
+    console.log('Sending Hello ', i);
 
-    await sock.send(JSON.stringify(productos));
+    await sock.send("Hello from node");
     const [result] = await sock.receive();
     console.log('Received ', result.toString(), i);
   }
