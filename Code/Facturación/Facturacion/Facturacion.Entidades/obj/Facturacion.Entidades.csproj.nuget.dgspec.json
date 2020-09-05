@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {}
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {}
   },
   "projects": {
-    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
         "projectName": "Facturacion.Entidades",
-        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
         "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\obj\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

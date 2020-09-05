@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gq8EdzsAnsWOXtvKwmH8KF2Pezznve2p32lm8+ziDG9nvFaRFOLYclh9wFubbQSBTaNHAxy44RFyflZQRsKMsA==",
+  "dgSpecHash": "Ol6QhD6U540haIa7NSDVlEGYD8VjZrCsPsfqhjKlHFOZr733uRKdiGu4y0hkIzNxo1nFa/OY+BsXp7J0TlKSNg==",
   "success": true,
-  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj",
+  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

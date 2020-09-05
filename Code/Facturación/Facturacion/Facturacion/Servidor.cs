@@ -47,7 +47,7 @@ namespace Facturacion
 
 
                     Console.WriteLine("---------------------------------------------------------------------------");
-                    client.Enviar();
+                    //client.Enviar();
                 }
             }
         }

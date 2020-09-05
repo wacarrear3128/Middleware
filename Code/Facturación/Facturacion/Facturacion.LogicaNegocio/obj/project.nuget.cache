@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tRTkCXy0Qb/y/V0iwB+l5bjC8sjDGooS2OORW/nMdV234M6axShU19YH/lp8FAQOj3uxx2ur+GMV8ZbiFPj/Kw==",
+  "dgSpecHash": "lku+URh6GyVn12IXUop92zT4TGxKsaztlnP5m/ZakMk/TI6Wk6sAqdFCnjyawiPyJHDno/97s8dFqlUPG/5vjQ==",
   "success": true,
-  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
+  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

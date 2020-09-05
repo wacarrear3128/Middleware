@@ -20,9 +20,6 @@ namespace Facturacion
             //pruebasf.InsertarFactura();
             //pruebasf.MaxFactura();
             server.Recibir();
-            
-
-
         }
     }
 }

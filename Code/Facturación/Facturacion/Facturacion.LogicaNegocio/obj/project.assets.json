@@ -4525,11 +4525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
+      "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
       "projectName": "Facturacion.LogicaNegocio",
-      "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
+      "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
       "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-      "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\obj\\",
+      "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4548,11 +4548,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj": {
-              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj"
+            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj": {
+              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj"
             },
-            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
-              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
+            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
+              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
             }
           }
         }
