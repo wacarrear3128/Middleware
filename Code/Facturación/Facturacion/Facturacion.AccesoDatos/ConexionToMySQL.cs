@@ -10,7 +10,7 @@ namespace Facturacion.AccesoDatos
         //Crearemos la cadena de conexión concatenando las variables
         public ConexionToMySQL()
         {
-            mysql_conexion = "Database= sd_db; Data Source=localhost; User Id=sdlocal; Password=sdlocal";
+            mysql_conexion = "Database= sd_db; Data Source=34.121.240.130; User Id=root; Password=root123";
         }
 
         protected MySqlConnection GetConnection()

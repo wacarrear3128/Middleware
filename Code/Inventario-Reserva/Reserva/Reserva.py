@@ -39,7 +39,7 @@ def reservarPedido(reqJson):
 # Creo contexto para la comunicación con Inventario
 ctxtInv = zmq.Context()
 scktInv = ctxtInv.socket(zmq.REP)
-scktInv.bind("tcp://*:1051")
+scktInv.bind("tcp://*:1050")
 
 print("*** MÓDULO DE RESERVA ***")
 
