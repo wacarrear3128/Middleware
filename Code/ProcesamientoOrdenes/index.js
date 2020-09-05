@@ -18,29 +18,29 @@ app.get('/', function (req, res) {
 
 var productos = [
   {
-    'codigo':'prod-001',
-    'nombre':'Panasonic Pantalla LCD',
-    'precio':'25070',
-    'cantidad':0
+    'nombre':'Prod001',
+    'cantidad':0,
+    'dni':"876534521"
   },
   {
-    'codigo':'prod-002',
-    'nombre':'Mica Comoda 5 Cajones',
-    'precio':'30240',
-    'cantidad':0
+    'nombre':'Prod002',
+    'cantidad':0,
+    'dni':"876534521"
   },
   {
-    'codigo':'prod-003',
-    'nombre':'Hewlett Packard Multifuncional F2208',
-    'precio':'60230',
-    'cantidad':0
+    'nombre':'Prod003',
+    'cantidad':0,
+    'dni':"876534521"
   }
 ]
 
 app.post('/cuerpo',async(req,res)=>{
   var cuerpo =req.body
   let {panasonic,mica,packard} =  cuerpo;
-  console.log("cuerpo",cuerpo);
+  panasonic = parseInt(panasonic);
+  mica = parseInt(mica);
+  packard = parseInt(packard);
+  console.log(panasonic,mica,packard);
   
   productos[0].cantidad=panasonic
   productos[1].cantidad=mica;
@@ -52,17 +52,18 @@ app.post('/cuerpo',async(req,res)=>{
 
 //  Socket to talk to server
 const sock = new zmq.Request();
-sock.connect('tcp://localhost:5555');
+sock.connect('tcp://34.123.133.9:9092');
 
-for (let i = 0; i < 10; i++) {
+
   
-  console.log('Sending cuerpo', i);
 
   await sock.send(JSON.stringify(productos));
   const [result] = await sock.receive();
-  console.log('Received ', result.toString(), i);
-  }
+  console.log('Received ', result.toString());
+  let resultado = result.toString();
+  console.log(typeof(resultado));
   console.log("Hola mundo");
+
   res.render('index', {success:'Felicidades'})
 })
 
