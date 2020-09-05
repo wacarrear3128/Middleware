@@ -15,12 +15,3 @@ D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Fact
 D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.dll
 D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.pdb
 D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.csprojAssemblyReference.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\bin\Debug\netstandard2.0\Facturacion.Entidades.deps.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\bin\Debug\netstandard2.0\Facturacion.Entidades.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\bin\Debug\netstandard2.0\Facturacion.Entidades.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.csprojAssemblyReference.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.AssemblyInfoInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.AssemblyInfo.cs
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.csproj.CoreCompileInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturación\Facturacion\Facturacion.Entidades\obj\Debug\netstandard2.0\Facturacion.Entidades.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xojJ8oMue1WVCC4BmruYAsxr/z5H4n4ayig1GF5gPavb/qWa6NnEkChMmnyNq9XFk2LPsysXbr333knucQT4Ew==",
+  "dgSpecHash": "c8npNM1w/+uNPAlJDlwMFHIwAs5XN1dwlnSVF3j+ofq9rXuAcS83qcG3INri5DIpDKQ5yTZsJ6xkwloVsgRUAw==",
   "success": true,
-  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturación\\Facturacion\\Facturacion\\Facturacion.csproj",
+  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion\\Facturacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\asyncio\\0.1.69\\asyncio.0.1.69.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
