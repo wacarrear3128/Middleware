@@ -12,7 +12,8 @@
           "Facturacion.Entidades": "1.0.0",
           "Facturacion.LogicaNegocio": "1.0.0",
           "NetMQ": "4.0.1.4",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "12.0.3",
+          "ZeroMQ": "4.1.0.31"
         },
         "runtime": {
           "Facturacion.dll": {}
@@ -850,6 +851,14 @@
           }
         }
       },
+      "ZeroMQ/4.1.0.31": {
+        "runtime": {
+          "lib/net40/ZeroMQ.dll": {
+            "assemblyVersion": "4.1.0.31",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Facturacion.AccesoDatos/1.0.0": {
         "dependencies": {
           "Facturacion.Entidades": "1.0.0",
@@ -1447,6 +1456,13 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "ZeroMQ/4.1.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzxg43qW/udHljMd4jTmsWcCTcxFnheVPqnMF+Me+naJCNgeNk/ymP0RhFmVOcqncg+uWzI4WmrTRuz4pjRBkQ==",
+      "path": "zeromq/4.1.0.31",
+      "hashPath": "zeromq.4.1.0.31.nupkg.sha512"
     },
     "Facturacion.AccesoDatos/1.0.0": {
       "type": "project",
