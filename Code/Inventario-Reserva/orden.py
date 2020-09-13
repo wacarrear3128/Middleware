@@ -1,6 +1,6 @@
 import zmq
 import json
-from Inventario.objeto import Objeto, Requerimiento
+from Inventario.objeto import Objeto, Requerimiento, Cuentas
 
 
 context = zmq.Context()
@@ -22,14 +22,35 @@ reqStr = json.dumps(req)
 
 print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
 
+# #  Socket to talk to server
+# print("Connecting to Inventario server…")
+# socket = context.socket(zmq.REQ)
+# socket.connect("tcp://localhost:9092") # 35.184.155.202 
+# #socket.connect("tcp://34.123.133.9:9092")
+
+# #socket.send_json(jsonObj)
+# socket.send_string(reqStr)
+
+# message = socket.recv()
+# print(message)
+# print(json.dumps(json.loads(message), indent=4))
+
+
+
+cxc = []
+cxc.append(Cuentas("Yordi Caushi Cueva", 19).__dict__)
+
+cxcStr = json.dumps(cxc)
 #  Socket to talk to server
-print("Connecting to Inventario server…")
+print("Connecting to Cuentas server…")
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:1050") # 35.184.155.202
+socket.connect("tcp://localhost:1050") # 35.184.155.202 
+#socket.connect("tcp://34.123.133.9:9092")
 
 #socket.send_json(jsonObj)
-socket.send_string(reqStr)
+socket.send_string(cxcStr)
 
 message = socket.recv()
 print(message)
-print(json.dumps(json.loads(message), indent=4))
+#print(json.dumps(json.loads(message), indent=4))
+

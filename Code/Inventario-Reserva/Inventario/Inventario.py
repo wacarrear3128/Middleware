@@ -61,7 +61,8 @@ def sendJson(resJson, dirPort):
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-dirReserva = "34.121.240.130:1050"
+#dirReserva = "34.121.240.130:1050"
+dirReserva = "localhost:1050"
 dirFacturacion = "34.123.189.222:5555"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes

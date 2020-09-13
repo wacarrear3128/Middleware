@@ -43,3 +43,10 @@ class Comunicado:
 		self.dif = dif
 		self.cst = cst
 		self.dni = dni
+
+# Para comunicarme con Cxc
+class Cuentas:
+
+	def __init__(self, nom, mnt):
+		self.nom = nom
+		self.mnt = mnt
