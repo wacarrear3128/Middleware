@@ -44,11 +44,11 @@ function prueba($idFct, $parametro) {
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-$dirOrdenes = "localhost:1050";
+$dirOrdenes = "tcp://*:1051";
 
 $ctxtOrd = new ZMQContext();
 $scktOrd = new ZMQSocket($ctxtOrd, ZMQ::SOCKET_REP);
-$scktOrd->bind("tcp://*:1050");
+$scktOrd->bind($dirOrdenes);
 
 echo "*** MÓDULO DE CUENTAS POR COBRAR ***\n";
 

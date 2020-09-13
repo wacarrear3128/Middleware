@@ -45,7 +45,7 @@ def sendJson(resJson, dirPort):
 	# Aquí reservo ps, papi
 	ctxtRes = zmq.Context()
 	scktRes = ctxtRes.socket(zmq.REQ)
-	scktRes.connect("tcp://" + dirPort)
+	scktRes.connect(dirPort)
 
 	# Se envía a Reserva
 	scktRes.send_string(resp)
@@ -62,13 +62,14 @@ def sendJson(resJson, dirPort):
 #############################################
 
 #dirReserva = "34.121.240.130:1050"
-dirReserva = "localhost:1050"
-dirFacturacion = "34.123.189.222:5555"
+dirReserva = "tcp://localhost:1052"
+dirFacturacion = "tcp://localhost:1053"
+dirOrdenes = "tcp://*:1050"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
 ctxtOrd = zmq.Context()
 scktOrd = ctxtOrd.socket(zmq.REP)
-scktOrd.bind("tcp://*:9092")
+scktOrd.bind(dirOrdenes)
 
 print("*** MÓDULO DE INVENTARIO ***")
 
