@@ -1245,6 +1245,18 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "ZeroMQ/4.1.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/net40/ZeroMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ZeroMQ.dll": {}
+        },
+        "build": {
+          "build/net40/ZeroMQ.targets": {}
+        }
+      },
       "Facturacion.AccesoDatos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4886,6 +4898,24 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "ZeroMQ/4.1.0.31": {
+      "sha512": "xzxg43qW/udHljMd4jTmsWcCTcxFnheVPqnMF+Me+naJCNgeNk/ymP0RhFmVOcqncg+uWzI4WmrTRuz4pjRBkQ==",
+      "type": "package",
+      "path": "zeromq/4.1.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/amd64/libzmq.dll",
+        "build/amd64/libzmq.dylib",
+        "build/amd64/libzmq.so",
+        "build/i386/libzmq.dll",
+        "build/net40/ZeroMQ.targets",
+        "lib/net40/ZeroMQ.dll",
+        "lib/net40/ZeroMQ.xml",
+        "zeromq.4.1.0.31.nupkg.sha512",
+        "zeromq.nuspec"
+      ]
+    },
     "Facturacion.AccesoDatos/1.0.0": {
       "type": "project",
       "path": "../Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj",
@@ -4908,44 +4938,39 @@
       "Facturacion.Entidades >= 1.0.0",
       "Facturacion.LogicaNegocio >= 1.0.0",
       "NetMQ >= 4.0.1.4",
-      "Newtonsoft.Json >= 12.0.3"
+      "Newtonsoft.Json >= 12.0.3",
+      "ZeroMQ >= 4.1.0.31"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion\\Facturacion.csproj",
+      "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj",
       "projectName": "Facturacion",
-      "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion\\Facturacion.csproj",
-      "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-      "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion\\obj\\",
+      "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
-              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
+            "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
+              "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj"
             },
-            "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj": {
-              "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj"
+            "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj": {
+              "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj"
             }
           }
         }
@@ -4970,6 +4995,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "ZeroMQ": {
+            "target": "Package",
+            "version": "[4.1.0.31, )"
           }
         },
         "imports": [
@@ -4987,7 +5016,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -4996,8 +5025,18 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Echovoice.JSON 2.0.15151.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Echovoice.JSON 2.0.15151.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Echovoice.JSON",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ZeroMQ 4.1.0.31' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ZeroMQ",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

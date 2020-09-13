@@ -1,4 +1,4 @@
-﻿using Facturacion.Entidades;
+using Facturacion.Entidades;
 using Facturacion.LogicaNegocio;
 using NetMQ;
 using NetMQ.Sockets;
@@ -45,11 +45,13 @@ namespace Facturacion
                         Console.WriteLine("\t\t" + item.nom_prod + "\t\t" + string.Format("{0:0.00}", item.prec_prod) + "\t" + item.cantidad + "\t\t" + item.monto);
                     }
 
-
                     Console.WriteLine("---------------------------------------------------------------------------");
+
+                    responder.SendFrame("Recibido por Facturación");
                     //client.Enviar();
                 }
             }
         }
     }
 }
+

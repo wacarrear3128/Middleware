@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K3NcRTh2TtMPmhnngauxY/xDqCMA8veFHeRu2uWjlAtOzvE/wKSgISWh0OG2x91iVWgGIxJQLnW9cW8e7CQQ4A==",
+  "dgSpecHash": "6H7US+oKgP7b5nXzfX8dOY82FfKJQmY0bjkuTo1gMPznay9pB2/1k8wtZ/kpsjbK7d8O4Od+5wN40Fq3TiwAiw==",
   "success": true,
-  "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Facturación\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
+  "projectFilePath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

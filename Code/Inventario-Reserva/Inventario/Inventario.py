@@ -101,7 +101,7 @@ while True:
 
 	if (reservar):
 		sendJson(lstResp, dirReserva)
-#		sendJson(lstResp, dirFacturacion)
+		sendJson(lstResp, dirFacturacion)
 
 	#scktOrd.send_string(msj)
 	#print(json.dumps(lstResp, indent = 4) + "\n" + str(type(resp)))

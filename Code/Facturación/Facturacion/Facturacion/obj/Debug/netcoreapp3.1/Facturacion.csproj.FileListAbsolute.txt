@@ -1,103 +1,160 @@
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csprojAssemblyReference.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.AssemblyInfoInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.AssemblyInfo.cs
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csproj.CoreCompileInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.exe
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csproj.CopyComplete
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.deps.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.runtimeconfig.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.runtimeconfig.dev.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\AsyncIO.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\MySql.Data.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\NaCl.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\NetMQ.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.AccesoDatos.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.Entidades.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.LogicaNegocio.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.Entidades.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.LogicaNegocio.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.AccesoDatos.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.genruntimeconfig.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.exe
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.deps.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.runtimeconfig.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.runtimeconfig.dev.json
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\AsyncIO.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Echovoice.JSON.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\MySql.Data.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\NaCl.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\NetMQ.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.AccesoDatos.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.Entidades.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.LogicaNegocio.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.Entidades.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.LogicaNegocio.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\bin\Debug\netcoreapp3.1\Facturacion.AccesoDatos.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csprojAssemblyReference.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.AssemblyInfoInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.AssemblyInfo.cs
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csproj.CoreCompileInputs.cache
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.csproj.CopyComplete
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.dll
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.pdb
-D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Facturación\Facturacion\Facturacion\obj\Debug\netcoreapp3.1\Facturacion.genruntimeconfig.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csprojAssemblyReference.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfoInputs.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfo.cs
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CoreCompileInputs.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.exe
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CopyComplete
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.deps.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.dev.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/AsyncIO.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/MySql.Data.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NaCl.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NetMQ.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Net.Http.WinHttpHandler.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.ServiceModel.Primitives.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win7/lib/netstandard2.0/System.Private.ServiceModel.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.genruntimeconfig.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.exe
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.deps.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.dev.json
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/AsyncIO.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Echovoice.JSON.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/MySql.Data.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NaCl.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NetMQ.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Net.Http.WinHttpHandler.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.ServiceModel.Primitives.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win7/lib/netstandard2.0/System.Private.ServiceModel.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csprojAssemblyReference.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfoInputs.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfo.cs
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CoreCompileInputs.cache
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CopyComplete
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.dll
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.pdb
+D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.genruntimeconfig.cache
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.deps.json
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.json
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.runtimeconfig.dev.json
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.pdb
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/AsyncIO.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Echovoice.JSON.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/MySql.Data.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NaCl.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/NetMQ.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Net.Http.WinHttpHandler.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.ServiceModel.Primitives.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win7/lib/netstandard2.0/System.Private.ServiceModel.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.Entidades.pdb
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.LogicaNegocio.pdb
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/Facturacion.AccesoDatos.pdb
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csprojAssemblyReference.cache
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfoInputs.cache
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.AssemblyInfo.cs
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CoreCompileInputs.cache
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.csproj.CopyComplete
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.pdb
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/Debug/netcoreapp3.1/Facturacion.genruntimeconfig.cache
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/amd64/libzmq.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/i386/libzmq.dll
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/amd64/libzmq.so
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/amd64/libzmq.dylib
+/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/bin/Debug/netcoreapp3.1/ZeroMQ.dll
