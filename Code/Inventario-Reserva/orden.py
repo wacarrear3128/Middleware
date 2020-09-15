@@ -55,7 +55,7 @@ scktCnt.connect(dirCuentas) # 35.184.155.202
 #scktCnt.send_json(jsonObj)
 scktCnt.send_string(cxcStr)
 
-message = scktCnt.recv()
+message = scktCnt.recv_string()
 print(message)
 #print(json.dumps(json.loads(message), indent=4))
 
