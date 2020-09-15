@@ -1,6 +1,6 @@
 import zmq
 import json
-from Inventario.objeto import Objeto, Requerimiento, Cuentas
+from Inventario.objeto import Requerimiento, Cuentas
 
 dirInventario = "tcp://localhost:1050"
 ctxtInv = zmq.Context()
@@ -19,13 +19,11 @@ req.append(Requerimiento("Prod007", 16, "12345678").__dict__)
 req.append(Requerimiento("Prod008", 17, "12345678").__dict__)
 req.append(Requerimiento("Prod009", 18, "12345678").__dict__)
 req.append(Requerimiento("Prod010", 19, "12345678").__dict__)
-
 reqStr = json.dumps(req)
 #jsonObj = json.loads(jsonStr)
 
 cxc = []
 cxc.append(Cuentas("Yordi Caushi Cueva", 19).__dict__)
-
 cxcStr = json.dumps(cxc)
 
 

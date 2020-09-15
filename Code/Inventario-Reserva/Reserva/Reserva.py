@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
 import zmq
-from objeto import Comunicado
 import json
 from ReservaConnection import Connection
 from ReservaDA import ReservaDA

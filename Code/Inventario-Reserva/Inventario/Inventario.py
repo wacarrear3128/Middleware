@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
 import zmq
-from objeto import Requerimiento, Reserva, Comunicado
 import json
 from InventarioConnection import Connection
 from InventarioDA import InventarioDA
