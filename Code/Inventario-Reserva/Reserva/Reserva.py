@@ -36,7 +36,7 @@ def reservarPedido(reqJson):
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-dirInventario = "tcp://*:1051"
+dirInventario = "tcp://*:1052"
 
 # Creo contexto para la comunicación con Inventario
 ctxtInv = zmq.Context()

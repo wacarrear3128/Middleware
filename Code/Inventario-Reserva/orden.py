@@ -3,10 +3,10 @@ import json
 from Inventario.objeto import Objeto, Requerimiento, Cuentas
 
 dirInventario = "tcp://localhost:1050"
-scktInv = zmq.Context()
+ctxtInv = zmq.Context()
 
 dirCuentas = "tcp://localhost:1051"
-scktCnt = zmq.Context()
+ctxtCnt = zmq.Context()
 
 req = []
 req.append(Requerimiento("Prod001", 10, "12345678").__dict__)
@@ -23,30 +23,32 @@ req.append(Requerimiento("Prod010", 19, "12345678").__dict__)
 reqStr = json.dumps(req)
 #jsonObj = json.loads(jsonStr)
 
-print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
-
-# #  Socket to talk to server
-# print("Connecting to Inventario server…")
-# scktInv = ctxtInv.socket(zmq.REQ)
-# scktInv.connect("tcp://localhost:9092") # 35.184.155.202 
-# #scktInv.connect("tcp://34.123.133.9:9092")
-
-# #scktInv.send_json(jsonObj)
-# scktInv.send_string(reqStr)
-
-# message = scktInv.recv()
-# print(message)
-# print(json.dumps(json.loads(message), indent=4))
-
-
-
 cxc = []
 cxc.append(Cuentas("Yordi Caushi Cueva", 19).__dict__)
 
 cxcStr = json.dumps(cxc)
+
+
+
+print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
+
+#  Socket to talk to server
+print("Connecting to Inventario server…")
+scktInv = ctxtInv.socket(zmq.REQ)
+scktInv.connect(dirInventario) # 35.184.155.202 
+#scktInv.connect("tcp://34.123.133.9:9092")
+
+#scktInv.send_json(jsonObj)
+scktInv.send_string(reqStr)
+
+message = scktInv.recv()
+print(message)
+print(json.dumps(json.loads(message), indent=4))
+
+
 #  Socket to talk to server
 print("Connecting to Cuentas server…")
-scktCnt = context.socket(zmq.REQ)
+scktCnt = ctxtCnt.socket(zmq.REQ)
 scktCnt.connect(dirCuentas) # 35.184.155.202 
 #scktCnt.connect("tcp://34.123.133.9:9092")
 
