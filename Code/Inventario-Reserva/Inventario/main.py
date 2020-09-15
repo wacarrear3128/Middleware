@@ -57,4 +57,4 @@ while True:
 
 	if (reservar):
 		Inventario.sendJson(lstResp, dirReserva)
-		Inventario.sendJson(lstResp, dirFacturacion)
+		#Inventario.sendJson(lstResp, dirFacturacion)
