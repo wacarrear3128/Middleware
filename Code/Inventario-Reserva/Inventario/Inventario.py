@@ -17,7 +17,30 @@ class Inventario:
 	def getSuficiente(reqJson):
 		try:
 			cnx = Connection.getConnection()
-			lstCom = InventarioDA.getComunicados(cnx, reqJson)
+			#lstCom = InventarioDA.getComunicados(cnx, reqJson)
+			lstCom = InventarioDA.getMensaje(cnx, reqJson)
+			return lstCom
+		except mysql.connector.Error as err:
+			if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+				print("Something is wrong with your user name or password")
+			elif err.errno == errorcode.ER_BAD_DB_ERROR:
+				print("Database does not exist")
+			else:
+				print(err)
+		else:
+			# Cierra la conexion
+			cnx.close()
+			print("> Conexión a la bd: cerrada.")
+	## Fin de getSuficiente()
+
+	## Método que recibe un objeto json con el requerimiento
+	## {nombre, cantidad}
+	## Retorna una lista de diccionarios json
+	@staticmethod
+	def getConsulta(reqJson):
+		try:
+			cnx = Connection.getConnection()
+			lstCom = InventarioDA.getMensaje(cnx, reqJson)
 			return lstCom
 		except mysql.connector.Error as err:
 			if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
@@ -48,7 +71,7 @@ class Inventario:
 	## Y envía el json a la dirección
 	@staticmethod
 	def sendJson(resJson, dirPort):
-		print("\n> Enviando a Reserva")
+		print("\n> Enviando a " + resJson["destino"])
 		# Convierto el json en cadena
 		resp = json.dumps(resJson)
 		# Aquí reservo ps, papi

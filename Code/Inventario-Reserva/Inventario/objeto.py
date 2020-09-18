@@ -29,3 +29,22 @@ class Mensaje:
 		self.dif = dif
 		self.cst = cst
 		self.dni = dni
+
+class Message:
+
+	def __init__(self, origen, destino, dni, pedidos, reservar):
+		self.origen = origen
+		self.destino = destino
+		self.dni = dni
+		self.pedidos = pedidos
+		self.reservar = reservar
+
+class Pedido:
+	
+	def __init__(self, idp, nombre, cantidad, diferencia, costo):
+		self.idp = idp
+		self.nombre = nombre
+		self.cantidad = cantidad
+		self.diferencia = diferencia
+		self.costo = costo
+		
