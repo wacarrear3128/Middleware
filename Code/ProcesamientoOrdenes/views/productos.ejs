@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link  rel="icon"   href="https://thumbs.dreamstime.com/z/cartoon-local-farmer-market-concept-vector-wooden-store-vegetables-smiling-cheerful-seller-man-woman-fresh-harvest-139504597.jpg" type="image/jpg" />
+    <title>Market</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Minimarket</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-cart-arrow-down">compra</i>
+                        
+                    </a>
+                        
+                        
+                    
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ofertas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form action="/pagar" method="POST">
+                <button type="submit" class="btn btn-outline-success my-2 my-sm-1 ">Cotizar</button>
+                <input type="hidden" name ="pago" id="pago" >
+            </form>
+            
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container my-5">
+
+        <div class="jumbotron">
+            <h1 class="display-4">Seleccion de las mejores frutas del Peru</h1>
+            <p class="lead">En este apartado encontrara la mejor seleccion de frutas del peru.</p>
+            <hr class="my-4">
+        </div>
+
+
+        <% if (success != '') { %> 
+            <div class="alert alert-primary" role="alert">
+                <%= success %>
+              </div>
+         <% } %>
+        <form action="/carrito" method="post">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://elpoderdelconsumidor.org/wp-content/uploads/2017/11/platanos.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Platano</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $2.0</h6>
+                        <p class="card-text">La banana, ​ plátano, ​ guineo, banano, maduro, cambur o gualele, es un
+                            fruto
+                            comestible, botánicamente una baya, de varios tipos de grandes plantas herbáceas del género
+                            Musa.</p>
+                    </div>
+                    <div class="card-footer row">
+                        <input type="number" class="form-control block col-sm-8" name="platano" placeholder="Cantidad" id="platano"  min="0">
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton" onclick="agregar( $('#platano').val(),$('#platano').attr('name'),'2')">Agregar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://static.vix.com/es/sites/default/files/styles/large/public/imj/otramedicina/P/Para-que-es-buena-la-chirimoya-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chirimoya</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $3.5</h6>
+                        <p class="card-text">Annona cherimola es un árbol perteneciente a la familia de las anonáceas
+                            cuyo
+                            fruto comestible es la chirimoya o chirimoyo. Es considerada una de las frutas tropicales
+                            más
+                            apreciadas dentro del género</p>
+                    </div>
+                    <div class="card-footer row">
+                        <input type="number" class="form-control block col-sm-8" name="chirimoya" placeholder="Cantidad" id="chirimoya"  min="0">
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton" onclick="agregar( $('#chirimoya').val(),$('#chirimoya').attr('name'),'3.5')">Agregar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Uva</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $1.5</h6>
+                        <p class="card-text">La uva​ es la común denominación que reciben los frutos formados en los
+                            racimos
+                            de la vid.​​ Usada mundialmente para su fermentación, ya que ésta da lugar al vino.​​​
+                            Sembradas
+                            en viña crecen agrupadas en las parras de las vides entre 6 y 300 uvas por racimo.​</p>
+                    </div>
+                    <div class="card-footer row">
+                        <input type="number" class="form-control block col-sm-8" name="uva" placeholder="Cantidad" id="uva"  min="0">
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton" onclick="agregar( $('#uva').val(),$('#uva').attr('name'),'1.5')">Agregar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck my-5">
+                <div class="card">
+                    <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/m/manzana.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manzana</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $1.5</h6>
+                        <p class="card-text">La manzana es el fruto comestible de la especie Malus domestica, llamada
+                            comúnmente manzano. Es una fruta pomácea de forma redonda y sabor más o menos dulce,
+                            dependiendo
+                            de la variedad.</p>
+                    </div>
+                    <div class="card-footer row">
+
+                        <input type="number" class="form-control block col-sm-8" name="manzana" placeholder="Cantidad" id="manzana"  min="0" >
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton" onclick="agregar( $('#manzana').val(),$('#manzana').attr('name'),'1.5')">Agregar</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $3.5</h6>
+                        <p class="card-text">El mango es el nombre de las frutas de varias especies de árboles del
+                            género
+                            Mangifera, especialmente de Mangifera indica, y sus numerosos cultivares.</p>
+                    </div>
+                    <div class="card-footer row">
+                        <input type="number" class="form-control block col-sm-8" name="mango" placeholder="Cantidad" id="mango"  min="0">
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton" onclick="agregar( $('#mango').val(),$('#mango').attr('name'),'3.5')">Agregar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://media.mercola.com/assets/images/foodfacts/pear-nutrition-facts.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pera</h5>
+                        <h6 class="" style="color:blue">Precio x Kg : $1.5</h6>
+                        <p class="card-text">Se denomina pera al fruto de distintas especies del género Pyrus, integrado
+                            por
+                            árboles caducifolios conocidos comúnmente como perales.​ Sin embargo, cuando se trata del
+                            fruto
+                            comestible, se hace referencia mayormente al producido por el llamado peral común.</p>
+                    </div>
+                    <div class="card-footer row">
+                        <input type="number" class="form-control block col-sm-8" name="pera" placeholder="Cantidad" id="pera" min="0">
+                        <button type="button" class="btn btn-danger  col-sm-4" name="boton"  onclick="agregar( $('#pera').val(),$('#pera').attr('name'),'1.5')">Agregar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <button type="submit" class="btn btn-secondary btn-block">Agregar al Carrito</button> -->
+        </form>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./scripts.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon"
+        href="https://thumbs.dreamstime.com/z/cartoon-local-farmer-market-concept-vector-wooden-store-vegetables-smiling-cheerful-seller-man-woman-fresh-harvest-139504597.jpg"
+        type="image/jpg" />
+    <title>Market</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Minimarket</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+
+                        Lo mas comprado
+                    </a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ofertas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div class="container my-5">
+
+        <div class="jumbotron">
+            <h1 class="display-4">Resumen de pedidos</h1>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-6">
+
+                <div class="card mb-3">
+                    <img src="https://s.france24.com/media/display/91bee782-f2fc-11ea-8033-005056bff430/w:1280/p:16x9/TRUMP%20MI%C3%89RCOLES.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Donal Trump</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-6">
+                <h3 class="text-center">Lista de pedidos</h3>
+
+                <table class="table table-striped table-inverse table-responsive">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for(var i=0; i<productos.length; i++) {%>
+                        <tr>
+                            <td> <%= productos[i].nombre %> </td>
+                            <td> <%= productos[i].cantidad %></td>
+                            <td> <%= productos[i].precio %></td>
+                            <td> <%= productos[i].precio*productos[i].cantidad %></td>
+                        </tr>
+                        <%  } %>
+
+                    </tbody>
+                </table>
+                <!-- <form action="/comprar" method="POST" name="cotizar" id="cotizar"
+                    onsubmit='javascript:document.charset="UTF-8"; return agregarMonto()'>
+                    <input type="hidden" name="monto" value="10">
+                    <button type="submit" class="btn btn-success btn-large btn-block">Comprar</button>
+                </form>
+                <script>
+                    function agregarMonto() {
+                        let monto = prompt("Por favor ingrese el monto");
+                        document.cotizar.monto.value = monto;
+                    }
+                </script> -->
+                <button class="btn btn-primary btn-block" id="verificarStock" onclick="asignarValor()">Verificar Stock</button>
+                <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#exampleModal"
+                    data-whatever="@mdo" id="pagarMonto" disabled>Pagar</button>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pagos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <!-- <label for="dni">DNI</label> -->
+                            <!-- <input type="text" class="form-control" id="dni" value="12345678" disabled> -->
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label" >Total:</label>
+                                    <input type="text" class="form-control" id="total-pagar" disabled>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Ingresar Pago:</label>
+                                    <input type="text" class="form-control" id="ingresar-pago">
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Pagado:</label>
+                                    <input type="text" class="form-control" id="pagado">
+                                </div> -->
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Por pagar:</label>
+                                    <input type="text" class="form-control" id="por-pagar" disabled>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary" id="pagar" data-dismiss="modal" onclick="enviarPago()">Pagar</button>
+                        <!-- <button type="button" class="btn btn-primary"  >Pagar</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <input type="button" value="presionar" onclick="enviarPago()"> -->
+        <script>
+          
+            
+
+            $('#exampleModal').on('show.bs.modal', function (event) {
+                
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var recipient = button.data('whatever') // Extract info from data-* attributes
+                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                var modal = $(this)
+                modal.find('.modal-title').text('New message to ' + recipient)
+                modal.find('.modal-body input').val(recipient)
+            })
+        </script>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./scripts.js"></script> 
+</body>
+
+</html>
