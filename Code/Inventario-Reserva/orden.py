@@ -25,10 +25,11 @@ cxcStr = json.dumps(cxc)
 ## Es necesario pasarle una lista de diccionarios al Message
 ## para que se pueda convertir a json
 req = []
-req.append(Pedido(-1, "Prod004", 18, 0, 0.0).__dict__)
-req.append(Pedido(-1, "Prod005", 18, 0, 0.0).__dict__)
-req.append(Pedido(-1, "Prod006", 18, 0, 0.0).__dict__)
-req.append(Pedido(-1, "Prod007", 18, 0, 0.0).__dict__)
+req.append(Pedido(-1, "platano", -108, 0, 0.0).__dict__)
+req.append(Pedido(-1, "chirimoya", -108, 0, 0.0).__dict__)
+req.append(Pedido(-1, "uva", -108, 0, 0.0).__dict__)
+req.append(Pedido(-1, "manzana", -108, 0, 0.0).__dict__)
+req.append(Pedido(-1, "pera", -108, 0, 0.0).__dict__)
 
 mss = Message("Prueba", "Inventario", "13254768", req, False, 5.0)
 
@@ -38,39 +39,39 @@ reqStr = json.dumps(mss.__dict__)
 
 print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
 
-# dirInventario = "tcp://localhost:5050"
-# ctxtInv = zmq.Context()
-
-# #  Socket to talk to server
-# print("Connecting to Inventario server…")
-# scktInv = ctxtInv.socket(zmq.REQ)
-# scktInv.connect(dirInventario) # 35.184.155.202 
-# #scktInv.connect("tcp://34.123.133.9:9092")
-
-# #scktInv.send_json(jsonObj)
-# scktInv.send_string(reqStr)
-
-# message = scktInv.recv()
-# print(message)
-# print(json.dumps(json.loads(message), indent=4))
-
-
-
-#dirCuentas = "tcp://localhost:5051"
-dirCuentas = "tcp://34.121.240.130:5051"
-ctxtCnt = zmq.Context()
+dirInventario = "tcp://34.121.65.175:5050"
+ctxtInv = zmq.Context()
 
 #  Socket to talk to server
-print("Connecting to Cuentas server…")
-scktCnt = ctxtCnt.socket(zmq.REQ)
-scktCnt.connect(dirCuentas) # 35.184.155.202 
-#scktCnt.connect("tcp://34.123.133.9:9092")
+print("Connecting to Inventario server…")
+scktInv = ctxtInv.socket(zmq.REQ)
+scktInv.connect(dirInventario) # 35.184.155.202 
+#scktInv.connect("tcp://34.123.133.9:9092")
 
-#scktCnt.send_json(jsonObj)
-#scktCnt.send_string(cxcStr)
-scktCnt.send_string(reqStr)
+#scktInv.send_json(jsonObj)
+scktInv.send_string(reqStr)
 
-message = scktCnt.recv_string()
+message = scktInv.recv()
 print(message)
-#print(json.dumps(json.loads(message), indent=4))
+print(json.dumps(json.loads(message), indent=4))
+
+
+
+# #dirCuentas = "tcp://localhost:5051"
+# dirCuentas = "tcp://34.121.240.130:5051"
+# ctxtCnt = zmq.Context()
+
+# #  Socket to talk to server
+# print("Connecting to Cuentas server…")
+# scktCnt = ctxtCnt.socket(zmq.REQ)
+# scktCnt.connect(dirCuentas) # 35.184.155.202 
+# #scktCnt.connect("tcp://34.123.133.9:9092")
+
+# #scktCnt.send_json(jsonObj)
+# #scktCnt.send_string(cxcStr)
+# scktCnt.send_string(reqStr)
+
+# message = scktCnt.recv_string()
+# print(message)
+# #print(json.dumps(json.loads(message), indent=4))
 

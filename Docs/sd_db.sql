@@ -1,3 +1,4 @@
+DROP DATABASE sd_db;
 CREATE DATABASE sd_db;
 USE sd_db;
 
@@ -41,7 +42,7 @@ CREATE TABLE tb_facturas (
     FK_id_cli INT(8) NOT NULL,
     tot_fct FLOAT,
     est_fct VARCHAR(15),
-    mnt_pgd FLOAT,
+    mnt_pgd FLOAT DEFAULT 0,
     PRIMARY KEY (id_fct),
     FOREIGN KEY (FK_id_cli) REFERENCES tb_clientes(id_cli)
 );

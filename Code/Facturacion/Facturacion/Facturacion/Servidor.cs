@@ -28,7 +28,7 @@ namespace Facturacion
                     //Console.WriteLine(str);
 
                     EFactura_Request obj1 = JsonConvert.DeserializeObject<EFactura_Request>(str);
-                    //Console.WriteLine(obj1);
+                    Console.WriteLine("Hecho");
 
                     facturaBL.InsertarFactura(obj1);
                     int id_factura = facturaBL.MaxFactura();

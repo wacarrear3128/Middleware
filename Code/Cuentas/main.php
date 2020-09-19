@@ -16,7 +16,7 @@ function getStringFromJson($jsonObject) {
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-$dirOrdenes = "tcp://*:1051";
+$dirOrdenes = "tcp://*:5051";
 
 $ctxtOrd = new ZMQContext();
 $scktOrd = new ZMQSocket($ctxtOrd, ZMQ::SOCKET_REP);
