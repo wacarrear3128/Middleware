@@ -19,7 +19,7 @@ namespace Facturacion
         {
             using (var responder = new ResponseSocket())
             {
-                responder.Bind("tcp://*:5555");
+                responder.Bind("tcp://*:5053");
 
                 while (true)
                 {
