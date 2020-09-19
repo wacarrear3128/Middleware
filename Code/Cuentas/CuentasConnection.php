@@ -2,7 +2,7 @@
 
 class Connection {
 
-	const SERVER_NAME = "34.121.240.130";
+	const SERVER_NAME = "34.123.189.222";
 	const USER_NAME = "root";
 	const PASSWORD = "root123";
 	const DATABASE = "sd_db";

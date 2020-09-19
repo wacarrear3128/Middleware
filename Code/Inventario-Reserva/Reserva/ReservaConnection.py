@@ -5,7 +5,7 @@ from mysql.connector import errorcode
 config = {
 	'user': 'root',
 	'password': 'root123',
-	'host': '34.121.240.130',
+	'host': '34.123.189.222',
 	'database': 'sd_db',
 	'raise_on_warnings': True
 }
