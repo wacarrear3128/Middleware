@@ -30,8 +30,8 @@ def setDestino(jsonDict, destino):
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-dirReserva = "tcp://34.121.65.175:5052"
-dirFacturacion = "tcp://34.123.189.222:5053"
+dirReserva = "tcp://34.121.240.130:5052"
+dirFacturacion = "tcp://34.121.65.175:5053"
 dirOrdenes = "tcp://*:5050"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
