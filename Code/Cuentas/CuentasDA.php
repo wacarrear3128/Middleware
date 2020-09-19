@@ -21,7 +21,7 @@ class CuentasDA {
 				    echo gettype($ret) . " -> " . $ret . "\n";
 				}
 			} else {
-				echo ">> Consulta vacía.";
+				echo ">> Consulta vacía. No hay deuda.\n";
 			}
 		} else {
 			echo ">> Error de consulta.";
