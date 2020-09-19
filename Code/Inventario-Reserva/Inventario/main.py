@@ -31,15 +31,9 @@ def setDestino(jsonDict, destino):
 #############################################
 
 #dirReserva = "34.121.240.130:1050"
-<<<<<<< HEAD
 dirReserva = "tcp://localhost:5052"
 dirFacturacion = "tcp://localhost:5053"
 dirOrdenes = "tcp://*:5050"
-=======
-dirReserva = "tcp://localhost:1052"
-dirFacturacion = "tcp://localhost:5555"
-dirOrdenes = "tcp://*:9092"
->>>>>>> 8327c2f1d72115c390fd74c7f557d9feaff2ac95
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
 ctxtOrd = zmq.Context()
