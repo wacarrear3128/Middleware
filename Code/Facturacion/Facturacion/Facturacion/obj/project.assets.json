@@ -172,7 +172,7 @@
           "lib/netstandard2.1/NaCl.dll": {}
         }
       },
-      "NetMQ/4.0.1.6": {
+      "NetMQ/4.0.1.4": {
         "type": "package",
         "dependencies": {
           "AsyncIO": "0.1.69",
@@ -1560,10 +1560,10 @@
         "nacl.net.nuspec"
       ]
     },
-    "NetMQ/4.0.1.6": {
-      "sha512": "nlOXZu8IE46U2LdYyS24N23dLLOP66nnueaOHfklpsnium2g/fX0v8uQZsRsY4GG8cuTh0Q6TcHx4/Cq0wN6zg==",
+    "NetMQ/4.0.1.4": {
+      "sha512": "3Uo3hFjGT8kfD7lkSXsEHBghp+J7o99lTfcKdPYwztoB7BCWRzzESiknucKtzdlXC6rYAXL0XDkQjIn99COq7Q==",
       "type": "package",
-      "path": "netmq/4.0.1.6",
+      "path": "netmq/4.0.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1576,7 +1576,7 @@
         "lib/netstandard2.0/NetMQ.xml",
         "lib/netstandard2.1/NetMQ.dll",
         "lib/netstandard2.1/NetMQ.xml",
-        "netmq.4.0.1.6.nupkg.sha512",
+        "netmq.4.0.1.4.nupkg.sha512",
         "netmq.nuspec"
       ]
     },
@@ -4883,7 +4883,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Facturacion.Entidades >= 1.0.0",
       "Facturacion.LogicaNegocio >= 1.0.0",
-      "NetMQ >= 4.0.1.6",
+      "NetMQ >= 4.0.1.4",
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
@@ -4937,7 +4937,7 @@
         "dependencies": {
           "NetMQ": {
             "target": "Package",
-            "version": "[4.0.1.6, )"
+            "version": "[4.0.1.4, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
