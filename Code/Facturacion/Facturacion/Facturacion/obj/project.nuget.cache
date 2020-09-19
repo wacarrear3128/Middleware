@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E9E7iWTApyaMHyTavFQWb7ER/Qcw2pkl9lzTdgNl5bNZlJ7BVhq3e+zXCT7t4EkGoS+cLzJG7ymziBFHiTX2qw==",
+  "dgSpecHash": "g9TOlcou4x5NkHgNhxqPLzeaZr9ym3uzkhqwLfCZewdBhtMw189hmroSOBlKKnA2FCXBA6IpFY3J/Wa1xYey8g==",
   "success": true,
   "projectFilePath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\Facturacion.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\Joel\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\mysql.data\\8.0.21\\mysql.data.8.0.21.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\nacl.net\\0.1.13\\nacl.net.0.1.13.nupkg.sha512",
-    "C:\\Users\\Joel\\.nuget\\packages\\netmq\\4.0.1.4\\netmq.4.0.1.4.nupkg.sha512",
+    "C:\\Users\\Joel\\.nuget\\packages\\netmq\\4.0.1.6\\netmq.4.0.1.6.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.security.cryptography\\4.0.0\\runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
