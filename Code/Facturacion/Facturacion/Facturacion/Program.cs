@@ -11,11 +11,10 @@ namespace Facturacion
 {
     static class Program
     {
-        static Pruebas_facturacion pruebasf = new Pruebas_facturacion();
-        static Servidor server = new Servidor();
-        static Cliente client = new Cliente();
+        static readonly Servidor server = new Servidor();
         static void Main(string[] args)
         {
+            Console.WriteLine("*** MODULO DE FACTURACION ***");
             server.Recibir();
         }
     }

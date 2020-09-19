@@ -11,10 +11,9 @@ namespace Facturacion
 {
     public class Servidor
     {
-        Cliente client = new Cliente();
-        FacturaLN facturaBL = new FacturaLN();
-        OrdenLN ordenBL = new OrdenLN();
-        DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
+        readonly FacturaLN facturaBL = new FacturaLN();
+        readonly OrdenLN ordenBL = new OrdenLN();
+        readonly DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
         public void Recibir()
         {
             using (var responder = new ResponseSocket())
@@ -23,7 +22,7 @@ namespace Facturacion
 
                 while (true)
                 {
-                    Console.WriteLine("Esperando conexion");
+                    Console.WriteLine("Esperando solicitudes...");
                     string str = responder.ReceiveFrameString();
                     //Console.WriteLine(str);
 
@@ -32,7 +31,7 @@ namespace Facturacion
 
                     facturaBL.InsertarFactura(obj1);
                     int id_factura = facturaBL.MaxFactura();
-                    ordenBL.insertarOrden(obj1, id_factura);
+                    ordenBL.InsertarOrden(obj1, id_factura);
 
 
                     List<EDetalleFactura> dfactura = dfacturaBL.Todos(obj1.dni, id_factura);

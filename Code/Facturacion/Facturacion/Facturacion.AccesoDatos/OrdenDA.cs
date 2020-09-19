@@ -8,7 +8,7 @@ namespace Facturacion.AccesoDatos
 {
     public class OrdenDA : ConexionToMySQL
     {
-        public void insertarOrden(EFactura_Request facreq, int id)
+        public void InsertarOrden(EFactura_Request facreq, int id)
         {
             using (var conexion = GetConnection())
             {

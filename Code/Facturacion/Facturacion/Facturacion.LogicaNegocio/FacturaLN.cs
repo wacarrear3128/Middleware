@@ -8,12 +8,14 @@ namespace Facturacion.LogicaNegocio
 {
     public class FacturaLN
     {
-        FacturaDA facturaDA = new FacturaDA();
+        readonly FacturaDA facturaDA = new FacturaDA();
         public void InsertarFactura(EFactura_Request factreq)
         {
-            EFactura factura = new EFactura();
-            factura.id_cliente = factreq.dni;
-            factura.estado_fac = "Sin Cancelar";
+            EFactura factura = new EFactura
+            {
+                id_cliente = factreq.dni,
+                estado_fac = "Sin Cancelar"
+            };
             facturaDA.InsertarFactura(factura);
         }
 

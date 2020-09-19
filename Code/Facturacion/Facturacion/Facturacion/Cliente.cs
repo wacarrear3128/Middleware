@@ -11,7 +11,7 @@ namespace Facturacion
 {
     public class Cliente
     {
-        FacturaLN facturaBL = new FacturaLN();
+        readonly FacturaLN facturaBL = new FacturaLN();
         int id;
         double monto;
         public void Enviar()
