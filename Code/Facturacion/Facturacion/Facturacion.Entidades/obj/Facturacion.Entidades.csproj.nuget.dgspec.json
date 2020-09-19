@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {}
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {}
   },
   "projects": {
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
         "projectName": "Facturacion.Entidades",
-        "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/obj/",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

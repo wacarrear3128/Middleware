@@ -1,4 +1,4 @@
-﻿using Echovoice.JSON;
+﻿//using Echovoice.JSON;
 using Facturacion.Entidades;
 using Facturacion.LogicaNegocio;
 using NetMQ;
@@ -16,13 +16,7 @@ namespace Facturacion
         static Cliente client = new Cliente();
         static void Main(string[] args)
         {
-            //pruebasf.ListarFactura(12345678);
-            //pruebasf.InsertarFactura();
-            //pruebasf.MaxFactura();
             server.Recibir();
-            
-
-
         }
     }
 }

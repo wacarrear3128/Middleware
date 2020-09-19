@@ -19,7 +19,7 @@ namespace Facturacion
         {
             using (var responder = new ResponseSocket())
             {
-                responder.Bind("tcp://*:5555");
+                responder.Bind("tcp://*:5053");
 
                 while (true)
                 {
@@ -27,14 +27,15 @@ namespace Facturacion
                     string str = responder.ReceiveFrameString();
                     //Console.WriteLine(str);
 
-                    List<EFactura_Request> obj1 = JsonConvert.DeserializeObject<List<EFactura_Request>>(str);
+                    EFactura_Request obj1 = JsonConvert.DeserializeObject<EFactura_Request>(str);
+                    //Console.WriteLine(obj1);
 
                     facturaBL.InsertarFactura(obj1);
                     int id_factura = facturaBL.MaxFactura();
                     ordenBL.insertarOrden(obj1, id_factura);
 
 
-                    List<EDetalleFactura> dfactura = dfacturaBL.Todos(obj1[1].dni, id_factura);
+                    List<EDetalleFactura> dfactura = dfacturaBL.Todos(obj1.dni, id_factura);
 
                     Console.WriteLine("---------------------------------------------------------------------------");
                     Console.WriteLine("Cliente: "+dfactura[1].cliente);
@@ -46,8 +47,8 @@ namespace Facturacion
                     }
 
                     Console.WriteLine("---------------------------------------------------------------------------");
-
-                    responder.SendFrame("Recibido por Facturación");
+                  
+                    responder.SendFrame("Recibido por Facturacion");
                     //client.Enviar();
                 }
             }

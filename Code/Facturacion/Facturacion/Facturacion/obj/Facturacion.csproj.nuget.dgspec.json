@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj": {}
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\Facturacion.csproj": {}
   },
   "projects": {
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj",
         "projectName": "Facturacion.AccesoDatos",
-        "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/obj/",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
-                "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj"
+              "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
+                "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
               }
             }
           }
@@ -61,26 +66,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
         "projectName": "Facturacion.Entidades",
-        "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/obj/",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,36 +124,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
         "projectName": "Facturacion.LogicaNegocio",
-        "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/obj/",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj": {
-                "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.AccesoDatos/Facturacion.AccesoDatos.csproj"
+              "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj": {
+                "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.AccesoDatos\\Facturacion.AccesoDatos.csproj"
               },
-              "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
-                "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj"
+              "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
+                "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
               }
             }
           }
@@ -174,36 +189,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj": {
+    "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\Facturacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj",
+        "projectUniqueName": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\Facturacion.csproj",
         "projectName": "Facturacion",
-        "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/Facturacion.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion/obj/",
+        "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\Facturacion.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj": {
-                "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.Entidades/Facturacion.Entidades.csproj"
+              "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj": {
+                "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.Entidades\\Facturacion.Entidades.csproj"
               },
-              "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj": {
-                "projectPath": "/home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/Facturacion.LogicaNegocio.csproj"
+              "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj": {
+                "projectPath": "D:\\JOEL\\San Marcos\\CICLOS\\9° Ciclo\\Sistemas distribuidos\\Laboratorio\\Final\\Middleware\\Code\\Facturacion\\Facturacion\\Facturacion.LogicaNegocio\\Facturacion.LogicaNegocio.csproj"
               }
             }
           }
@@ -217,21 +237,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Echovoice.JSON": {
-              "target": "Package",
-              "version": "[2.0.15151.1, )"
-            },
             "NetMQ": {
               "target": "Package",
-              "version": "[4.0.1.4, )"
+              "version": "[4.0.1.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
-            },
-            "ZeroMQ": {
-              "target": "Package",
-              "version": "[4.1.0.31, )"
             }
           },
           "imports": [
@@ -249,7 +261,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
