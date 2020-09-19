@@ -56,7 +56,8 @@ print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
 
 
 
-dirCuentas = "tcp://localhost:5051"
+#dirCuentas = "tcp://localhost:5051"
+dirCuentas = "tcp://34.121.240.130:5051"
 ctxtCnt = zmq.Context()
 
 #  Socket to talk to server
