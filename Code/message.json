@@ -1,0 +1,15 @@
+{
+	"origen": "Ordenes",
+	"destino": "Inventario",
+	"dni": "12345678",
+	"pedidos": [{
+		"idp": 1,
+		"nombre": "Prod001",
+		"cantidad": 17,
+		"diferencia": 5,
+		"costo": 16.5
+	}],
+	"reservar": false,
+	"monto": 0.0,
+	"vuelto": 0.0
+}
