@@ -38,7 +38,7 @@ reqStr = json.dumps(mss.__dict__)
 
 print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
 
-# dirInventario = "tcp://localhost:9092"
+# dirInventario = "tcp://localhost:5050"
 # ctxtInv = zmq.Context()
 
 # #  Socket to talk to server
@@ -56,7 +56,7 @@ print("*** MÓDULO DE PROCESAMIENTO DE ÓRDENES ***\n")
 
 
 
-dirCuentas = "tcp://localhost:1051"
+dirCuentas = "tcp://localhost:5051"
 ctxtCnt = zmq.Context()
 
 #  Socket to talk to server
