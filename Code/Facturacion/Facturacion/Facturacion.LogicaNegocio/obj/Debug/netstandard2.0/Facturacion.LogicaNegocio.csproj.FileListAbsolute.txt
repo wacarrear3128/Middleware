@@ -40,3 +40,17 @@ D:/JOEL/San Marcos/CICLOS/9° Ciclo/Sistemas distribuidos/Laboratorio/Final/Fact
 /home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/obj/Debug/netstandard2.0/Facturacion.LogicaNegocio.csproj.CopyComplete
 /home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/obj/Debug/netstandard2.0/Facturacion.LogicaNegocio.dll
 /home/mint/Middleware/Code/Facturación/Facturacion/Facturacion.LogicaNegocio/obj/Debug/netstandard2.0/Facturacion.LogicaNegocio.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.LogicaNegocio.deps.json
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.LogicaNegocio.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.LogicaNegocio.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.AccesoDatos.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.Entidades.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.AccesoDatos.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\bin\Debug\netstandard2.0\Facturacion.Entidades.pdb
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.csprojAssemblyReference.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.AssemblyInfoInputs.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.AssemblyInfo.cs
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.csproj.CopyComplete
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.dll
+D:\JOEL\San Marcos\CICLOS\9° Ciclo\Sistemas distribuidos\Laboratorio\Final\Middleware\Code\Facturacion\Facturacion\Facturacion.LogicaNegocio\obj\Debug\netstandard2.0\Facturacion.LogicaNegocio.pdb
