@@ -25,7 +25,7 @@ def getJsonFromBytes(jsonBytes):
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-dirInventario = "tcp://*:1052"
+dirInventario = "tcp://*:5052"
 
 # Creo contexto para la comunicación con Inventario
 ctxtInv = zmq.Context()

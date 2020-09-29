@@ -8,8 +8,8 @@ namespace Facturacion
 {
     public class Pruebas_facturacion
     {
-        DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
-        FacturaLN facturaBL = new FacturaLN();
+        readonly DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
+        readonly FacturaLN facturaBL = new FacturaLN();
 
         public void ListarFactura(int dni, int idFac)
         {

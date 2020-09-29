@@ -21,14 +21,18 @@ def getJsonFromBytes(jsonBytes):
 	jsonDict = json.loads(jsonBytes.decode("utf-8"))
 	return jsonDict
 
+def setDestino(jsonDict, destino):
+	jsonDict["origen"] = "Inventario"
+	jsonDict["destino"] = destino
+	return jsonDict
+
 #############################################
 ##### ----- Esto se va a ejecutar ----- #####
 #############################################
 
-#dirReserva = "34.121.240.130:1050"
-dirReserva = "tcp://localhost:1052"
-dirFacturacion = "tcp://localhost:1053"
-dirOrdenes = "tcp://*:1050"
+dirReserva = "tcp://34.121.240.130:5052"
+dirFacturacion = "tcp://34.121.65.175:5053"
+dirOrdenes = "tcp://*:5050"
 
 # Crea contexto para el módulo del Procesamiendo de Órdenes
 ctxtOrd = zmq.Context()
@@ -47,13 +51,18 @@ while True:
 	print("> Solicitud Recibida")
 
 	lstResp = Inventario.getSuficiente(jsonLst)
-	reservar = Inventario.getReservar(lstResp)
+	#reservar = Inventario.getReservar(lstResp)
+	reservar = lstResp["reservar"]
 	
 	# La respuesta al módulo de órdenes será la lista armada
 	# en formato de cadena json
+	lstResp = setDestino(lstResp, "Ordenes")
 	resp = getStringFromJson(lstResp)
 	scktOrd.send_string(resp)
 
 	if (reservar):
+		lstResp = setDestino(lstResp, "Reserva")
 		Inventario.sendJson(lstResp, dirReserva)
+		lstResp = setDestino(lstResp, "Facturacion")
+		Inventario.sendJson(lstResp, dirFacturacion)
 		#Inventario.sendJson(lstResp, dirFacturacion)

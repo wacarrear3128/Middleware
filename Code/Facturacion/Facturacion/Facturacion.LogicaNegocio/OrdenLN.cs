@@ -8,10 +8,10 @@ namespace Facturacion.LogicaNegocio
 {
     public class OrdenLN
     {
-        OrdenDA orden = new OrdenDA();
-        public void insertarOrden(List<EFactura_Request> factura, int id)
+        readonly OrdenDA orden = new OrdenDA();
+        public void InsertarOrden(EFactura_Request factura, int id)
         {
-            orden.insertarOrden(factura, id);
+            orden.InsertarOrden(factura, id);
         }
     }
 }

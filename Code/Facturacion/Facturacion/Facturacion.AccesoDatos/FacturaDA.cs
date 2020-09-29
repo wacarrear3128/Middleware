@@ -14,7 +14,7 @@ namespace Facturacion.AccesoDatos
             {
                 conexion.Open();
 
-                MySqlCommand cmd = new MySqlCommand("insert into tb_facturas (FK_id_cli, est_fct, tot_fct) values (@dni, @estado, 0)", conexion);
+                MySqlCommand cmd = new MySqlCommand("insert into tb_facturas (FK_id_cli, est_fct, tot_fct, mnt_pgd) values (@dni, @estado, 0, 0)", conexion);
                 cmd.Parameters.AddWithValue("@dni", factura.id_cliente);
                 cmd.Parameters.AddWithValue("@estado", factura.estado_fac);
                 cmd.ExecuteNonQuery();

@@ -11,30 +11,30 @@ namespace Facturacion
 {
     public class Servidor
     {
-        Cliente client = new Cliente();
-        FacturaLN facturaBL = new FacturaLN();
-        OrdenLN ordenBL = new OrdenLN();
-        DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
+        readonly FacturaLN facturaBL = new FacturaLN();
+        readonly OrdenLN ordenBL = new OrdenLN();
+        readonly DetalleFacturaLN dfacturaBL = new DetalleFacturaLN();
         public void Recibir()
         {
             using (var responder = new ResponseSocket())
             {
-                responder.Bind("tcp://*:5555");
+                responder.Bind("tcp://*:5053");
 
                 while (true)
                 {
-                    Console.WriteLine("Esperando conexion");
+                    Console.WriteLine("Esperando solicitudes...");
                     string str = responder.ReceiveFrameString();
                     //Console.WriteLine(str);
 
-                    List<EFactura_Request> obj1 = JsonConvert.DeserializeObject<List<EFactura_Request>>(str);
+                    EFactura_Request obj1 = JsonConvert.DeserializeObject<EFactura_Request>(str);
+                    Console.WriteLine("Hecho");
 
                     facturaBL.InsertarFactura(obj1);
                     int id_factura = facturaBL.MaxFactura();
-                    ordenBL.insertarOrden(obj1, id_factura);
+                    ordenBL.InsertarOrden(obj1, id_factura);
 
 
-                    List<EDetalleFactura> dfactura = dfacturaBL.Todos(obj1[1].dni, id_factura);
+                    List<EDetalleFactura> dfactura = dfacturaBL.Todos(obj1.dni, id_factura);
 
                     Console.WriteLine("---------------------------------------------------------------------------");
                     Console.WriteLine("Cliente: "+dfactura[1].cliente);
@@ -46,8 +46,8 @@ namespace Facturacion
                     }
 
                     Console.WriteLine("---------------------------------------------------------------------------");
-
-                    responder.SendFrame("Recibido por Facturación");
+                  
+                    responder.SendFrame("Recibido por Facturacion");
                     //client.Enviar();
                 }
             }

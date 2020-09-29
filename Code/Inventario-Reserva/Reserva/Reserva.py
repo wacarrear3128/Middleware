@@ -16,7 +16,8 @@ class Reserva:
 		try:
 			# Conecta con la BD usando la configuración del diccionario config
 			cnx = Connection.getConnection()
-			ReservaDA.setReserva(cnx, reqJson)
+			#ReservaDA.setReserva(cnx, reqJson)
+			ReservaDA.doReserva(cnx, reqJson)
 			# Devuelve True si todo sale bien
 			return True
 		except mysql.connector.Error as err:

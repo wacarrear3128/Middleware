@@ -42,15 +42,36 @@ INSERT INTO tb_productos (nom_prd, dsc_prd, mrc_prd, prc_prd, und_prd) VALUES
     ('Prod009', 'Noveno producto', 'Marca04', 20.0, 'L'),
     ('Prod010', 'Decimo producto', 'Marca04', 17.5, 'kg');
     
+INSERT INTO tb_productos (nom_prd, dsc_prd, mrc_prd, prc_prd, und_prd) VALUES
+	('platano', 'Platano', '-', 2.0, 'kg'),
+    ('chirimoya', 'Chirimoya', '-', 3.5, 'kg'),
+    ('uva', 'Uva', '-', 1.5, 'kg'),
+    ('manzana', 'Manzana', '-', 1.5, 'kg'),
+    ('mango', 'Mango', '-', 3.5, 'kg'),
+    ('pera', 'Pera', '-', 1.5, 'kg');
+
 INSERT INTO tb_clientes (id_cli, nom_cli, app_cli, apm_cli) VALUES
 	(12345678, 'Yordi', 'Caushi', 'Cueva'),
     (13254768, 'Rolando', 'Ramos', 'Vargas'),
     (21436587, 'Joel', 'Trujillo', 'Cruz'),
     (13245768, 'Miguel', 'Velasquez', 'Yzquierdo');
 
+INSERT INTO tb_clientes (id_cli, nom_cli, app_cli, apm_cli) VALUES
+	(12457823, 'Martin', 'Ochoa', 'Cueva'),
+    (23568945, 'Javier', 'Lozada', 'Ordonez'),
+    (14253685, 'Chupetín', 'Trujillo', ' '),
+    (14853652, 'Susana', 'Diaz', ' '),
+    (95482615, 'Kimberly', 'Loayza', 'Cabello'),
+    (62518475, 'Raul', 'De la Torre', 'Soto'),
+    (23654815, 'Raquel', 'Torres', 'Blanco'),
+    (95846231, 'Irma', 'Diaz', 'Diaz');
+
 INSERT INTO tb_stock (FK_id_prd, stock) VALUES
 	(1, 15), (2, 15), (3, 15), (4, 15), (5, 15), (6, 15), (7, 15),
     (8, 15), (9, 15), (10, 15);
+    
+INSERT INTO tb_stock (FK_id_prd, stock) VALUES
+	(11, 30), (12, 30), (13, 30), (14, 30), (15, 30), (16, 30);
 
 INSERT INTO tb_facturas (FK_id_cli, tot_fct, est_fct, mnt_pgd) VALUES
 	(12345678, 0.0, 'Sin cancelar', 0.0),
